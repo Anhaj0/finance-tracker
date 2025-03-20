@@ -1,7 +1,8 @@
 # Personal Finance Tracker
 
 #### Video Demo:
-<Insert YouTube URL here>
+https://youtu.be/gumoM9L5p1U
+
 
 #### GitHub Repository:
 https://github.com/Anhaj0/finance-tracker
