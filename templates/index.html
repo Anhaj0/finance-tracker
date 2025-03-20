@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Finance Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>Finance Tracker</h1>
+
+    <form id="transaction-form">
+        <select id="type">
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+
+        <input type="text" id="category" placeholder="Category" required>
+        <input type="number" id="amount" placeholder="Amount" step="0.01" required>
+        <input type="date" id="date" required>
+
+        <button type="submit">Add Transaction</button>
+    </form>
+
+    <h2>Transactions:</h2>
+    <ul id="transactions-list"></ul>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
