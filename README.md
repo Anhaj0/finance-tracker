@@ -3,6 +3,9 @@
 #### Video Demo:
 <Insert YouTube URL here>
 
+#### GitHub Repository:
+https://github.com/Anhaj0/finance-tracker
+
 #### Description:
 
 I built this simple, user-friendly web app to help people keep track of their money easily. It lets you record your daily income and expenses, so you can quickly see how you're spending your money and manage your budget better.
